@@ -1,0 +1,1 @@
+Ficheros con extensión ipynb solo pueden abrirse a través de Anaconda -> Jupyter notebook
