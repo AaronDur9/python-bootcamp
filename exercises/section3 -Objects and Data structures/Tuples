@@ -1,0 +1,18 @@
+Tuples and Sets
+
+Tuples are like lists but immutables
+
+
+
+
+t = ('a', 'a', 'b')
+
+t.count('a')
+-> 2
+
+t.index('a')
+-> 0
+
+
+t[0] = 'c'
+-> ERROR

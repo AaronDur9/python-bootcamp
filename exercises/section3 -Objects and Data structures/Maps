@@ -1,0 +1,32 @@
+Maps
+
+
+prices = {'k1': 123, 'k2': [0,1,2], 'k3':{'insiderKey':100}}
+
+prices['k1']
+
+-> 123
+
+prices['k2'][0]
+
+-> 0
+
+prices['k3']['insiderKey']
+
+-> 100
+
+
+---------------------------------------
+prices.keys()
+
+-> dict_keys(['k1', 'k2', 'k3'])
+
+prices.values()
+
+-> dict_values([123, [0, 1, 2], {'insiderKey': 100}])
+
+prices.items()
+
+-> dict_items([('k1', 123), ('k2', [0, 1, 2]), ('k3', {'insiderKey': 100})])
+
+

@@ -1,0 +1,5 @@
+String methods
+
+ x.split('a')
+
+ 

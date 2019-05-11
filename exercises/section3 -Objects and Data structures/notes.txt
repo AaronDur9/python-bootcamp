@@ -1,0 +1,123 @@
+Interesing links
+
+Basic Practice:
+
+http://codingbat.com/python
+
+More Mathematical (and Harder) Practice:
+
+https://projecteuler.net/archives
+
+List of Practice Problems:
+
+http://www.codeabbey.com/index/task_list
+
+A SubReddit Devoted to Daily Practice Problems:
+
+https://www.reddit.com/r/dailyprogrammer
+
+A very tricky website with very few hints and touch problems (Not for beginners but still interesting)
+
+http://www.pythonchallenge.com/
+
+
+
+
+Type of a variable
+
+type(a)
+
+-----------------------------------------------------
+
+Length of a variable:
+
+len(a)
+
+
+------------------------------------------------
+Slice method
+
+a[starting:Ending:jump size]
+
+mystring = 'abcdefghijk'
+
+mystring[0:3]
+-> 'abc'
+
+
+mystring[0:4]
+-> 'abcd'
+
+mystring[0:4:2]
+-> 'ac'
+
+mystring[0:4:3]
+-> 'ad'
+
+mystring[::1]
+-> 'abcdefghijk'
+
+mystring[::-1]
+-> 'kjihgfedcba'
+
+
+
+----------------------------------------------
+IMMUTABILITY OF STRINGS
+
+a = 'aaron'
+
+a[0] = 't' -> Error. Strings are immutable
+
+
+
+letter = z
+
+letter * 5
+-> zzzzz
+
+Si recoges valores númericos como string y los sumas
+
+a = '2'
+b = '3'
+
+a + b
+-> '23'
+
+
+-------------------------------------------------
+STRING FORMATTING (https://pyformat.info/)
+
+'The {2} {1} {0}'.format('fox', 'brown', 'quick')
+
+-> The quick brown fox
+
+
+'The {q} {b} {f}'.format(f = 'fox', b = 'brown', q = 'quick')
+
+
+-------------------------------------
+FLOAT FORMATTING
+
+{value:width.precision f}
+
+
+print('The result  was {result:1.3f}'.format(result=r))
+
+The result  was 0.129
+
+print('The result  was {result:10.3f}'.format(result=r))
+
+The result  was      0.129
+
+--------------------------------------------
+OTRA FORMA DE LLAMAR A LA FUNCIÓN DE FORMAT
+
+name = 'Tony'
+
+print(f'His name is {name}')
+
+-> His name is Tony
+
+
+

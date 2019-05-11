@@ -1,0 +1,68 @@
+Files
+
+
+#First time I read the file
+
+myFile = open('test-file.txt')
+
+-> 'This is the test file.\nSecond line here!\nThird line'
+-------------------------------------
+
+# Second time I read the file
+
+myFile = open('test-file.txt')
+
+-> ''
+
+Because the cursor is in the last position of the file
+
+
+----------------------------------------
+
+myFile.seek(0)
+
+# Reading the file after moving the cursor to the beginning
+
+myFile = open('test-file.txt')
+
+-> 'This is the test file.\nSecond line here!\nThird line'
+
+
+
+----------------------------------------
+# Reading lines
+
+myFile.readlines()
+
+['This is the test file.\n', 'Second line here!\n', 'Third line']
+
+
+
+------------------------------------------
+OPENING FILES IN NEW WAY
+
+with open('test-file.txt') as myFile:
+    content = myFile.read()
+
+
+
+
+-------------------------------------------
+APPENDING LINES TO THE END OF A FILE
+
+with open('test-file.txt', mode='a') as myFile:
+    myFile.write('\nNew line')
+
+
+with open('test-file.txt') as myFile:
+    myFile.read()
+
+
+-> 'This is the test file.\nSecond line here!\nThird lineNew line\nNew line'
+
+
+
+
+
+
+
